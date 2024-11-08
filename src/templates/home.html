@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}
+MyHome - {{ block.super }}
+{% endblock title %}
+{% block content %}
+<h1>Hello, World!</h1>
+<p>This is {{ page_title }}</p>
+<p>This site was visited {{ total_visits_count }}</p>
+<p>This page was visited {{ page_visits_count }}</p>
+{% endblock content %}
